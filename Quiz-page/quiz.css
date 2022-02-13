@@ -1,0 +1,32 @@
+:root{
+    --black-color-v1:#3b3c36;
+    --black-color-v2:#16161d;
+}
+
+body{
+    background-color: var(--black-color-v2);
+    color:var(--white-color);
+}
+
+
+.content-wrapper{
+    width: 480px;
+    margin:auto
+}
+
+.question-score{
+    display:flex;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    
+}
+
+.option{
+    padding:1rem 2rem;
+    background-color:var(--black-color-v1);
+    color: var(--white-color);
+}
