@@ -1,15 +1,14 @@
-
 .category-container {
   display: flex;
-  gap:2rem;
+  gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .card {
   border-radius: 20px;
-  width:25rem;
-  box-shadow:-5px 5px 5px rgba(0,0,0,0.2)
+  width: 25rem;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-body {
@@ -24,7 +23,7 @@
   font-size: 18px;
 }
 
-.play-btn:hover{
+.play-btn:hover {
   background-color: var(--primary-hover);
 }
 
@@ -37,6 +36,6 @@
 
 .buttons {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
 }
