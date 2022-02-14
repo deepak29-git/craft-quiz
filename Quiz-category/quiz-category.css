@@ -19,8 +19,13 @@
 .play-btn {
   color: var(--white-color);
   background-color: var(--primary-color);
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 4rem;
+  font-size: 18px;
+}
+
+.play-btn:hover {
+  background-color: var(--primary-hover);
 }
 
 .rules-btn {
@@ -32,5 +37,6 @@
 
 .buttons {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
