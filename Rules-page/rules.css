@@ -1,0 +1,16 @@
+.rules-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rules-text {
+  border: 2px solid var(--primary-color);
+  padding: 4rem;
+}
+
+.rules-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
