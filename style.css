@@ -3,6 +3,9 @@
   --primary-hover: #ff9c46;
 }
 
+.quiz-logo{
+  color:var(--black-color)
+}
 .navbar {
   display: flex;
 }
