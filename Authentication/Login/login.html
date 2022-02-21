@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
-    href="https://create-ui.netlify.app/css/components.css"/>
-  <link rel="stylesheet" href="/Athentiaction/Login/login.css">
-  <link rel="stylesheet" href="/variable.css">
-    <title>Sign up</title>
+      href="https://create-ui.netlify.app/css/components.css"/>
+    <link rel="stylesheet" href="/Authentication/Login/login.css">
+    <link rel="stylesheet" href="/variable.css">
+    <title>Login</title>
 </head>
 <body>
     <main class="login">
         <div class="login-container mt-2">
-          <h2 class="center-text">Signup</h2>
+          <h2 class="center-text">Login</h2>
           <div class="input-group">
-            <label class="form-label">Email address</label>
-            <input class="form-control" type="text" />
+            <label for="email" class="form-label">Email address</label>
+            <input id="email" class="form-control" type="text" />
           </div>
           <div class="input-group">
-            <label class="form-label">Password</label>
-            <input class="form-control" type="text" />
+            <label for="password" class="form-label">Password </label>
+            <input id="password" class="form-control" type="text" />
           </div>
           <div class="checkbox-parent">
-            <input type="checkbox" />
-            <label>I accept all Terms & Conditions</label>
+            <input id="remember" type="checkbox" />
+            <label for="remember">Remember me</label>
+            <div class="forgot-pass">
+              <a href="#" class="forget-content">
+                <span class="forgot-pass">Forgot your Password?</span>
+              </a>
+            </div>
           </div>
   
           <div class="center">
-            <button class="my-2 login-btn">Create New Account</button>
+            <button class="my-2 login-btn">Login</button>
           </div>
           <div class="center">
-            <a class="black-text" href="/Athentiaction/Login/login.html">Already have an account</a>
+            <a class="black-text" href="/Authentication/Signup/signup.html">Create New Account</a>
             <svg
               class="right-arrow"
               xmlns="http://www.w3.org/2000/svg"

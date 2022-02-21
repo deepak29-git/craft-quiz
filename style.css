@@ -15,6 +15,12 @@
   flex-wrap: wrap;
 }
 
+.quiz-login{
+  display: flex;
+  align-items: center;
+}
+
+
 .quiz-btn {
   background-color: var(--primary-color);
   color: var(--white-color);
