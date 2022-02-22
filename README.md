@@ -13,7 +13,7 @@ This is my fully responsive mini quiz app which provide three categories- Movies
 
 This is the landing page of quiz app where you can start you quiz.
 
-![image](https://user-images.githubusercontent.com/88363801/154844651-7d548722-be3d-46bd-a8c7-efd2d0fd9c45.png)
+![image](https://user-images.githubusercontent.com/88363801/155083550-3e08db4b-7369-4087-8803-206e580e9ac4.png)
 
 **[Live Link](https://craft-quiz.netlify.app/)**
 
