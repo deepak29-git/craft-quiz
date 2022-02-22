@@ -52,7 +52,11 @@ This is the Rules page of quiz app where you can see a rules for quiz.
 ## Project Demo:
 
 
-https://user-images.githubusercontent.com/88363801/154846151-bb309c1a-1bd2-4180-8697-606d51d88569.mp4
+
+
+https://user-images.githubusercontent.com/88363801/155085977-cad5ab18-3dac-4af9-9956-5e126415eca5.mp4
+
+
 
 
 **[Live Project Link](https://craft-quiz.netlify.app/)**
